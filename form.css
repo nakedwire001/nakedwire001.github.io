@@ -40,6 +40,7 @@ body{
   .box{
     width: 100%;
     margin: auto;
+    display: block;
   }
 }
 
