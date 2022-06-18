@@ -24,7 +24,7 @@ body{
   align-items: center;
 }
 
-@media screen and (min-width: 345px) {
+@media screen and (max-width: 1000px) {
   .container{
     background: url(bg-intro-mobile.png);
     display: block;
