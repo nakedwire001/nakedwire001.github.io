@@ -137,10 +137,6 @@ button{
   padding: 5px;
   color: hsl(246, 25%, 77%);
 }
-@media screen and (max-width: 375px) {
-  .terms{
-  }
-}
 
 a{
   color: hsl(0, 100%, 74%);
