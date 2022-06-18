@@ -2,7 +2,8 @@
 
 *{
   padding: 0;
-  margin: 0;    
+  margin: 0;
+  font-size: 16px;  
 }
 
 body{
@@ -24,7 +25,7 @@ body{
   align-items: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 345px) {
   .container{
     background: url(bg-intro-mobile.png);
     display: block;
@@ -47,7 +48,7 @@ body{
 
 h1{
   color: white;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 90%;
 }
 @media screen and (max-width: 375px) {
@@ -57,25 +58,22 @@ h1{
 }
 p{
   color: white;
-  font-size: 9px;
 }
 @media screen and (max-width: 375px) {
   p{
     font-size: 10px;
     width: 59%;
     margin: auto;
-
   }
 }
 
 
 .free7{
   background-color: hsl(248, 32%, 49%);
-  font-size: 8px;
   border-radius: 0.2rem;
   color: white;
   padding: 10px;
-  width: 80%;
+  width: 100%;
   text-align: center;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.19);
 }
@@ -89,7 +87,7 @@ p{
 
 
 form{
-  width: 80%;
+  width: 100%;
   padding: 10px;
   background-color: white;
   border-radius: 0.2rem;
@@ -114,7 +112,8 @@ input{
 
 button{
   color: #ffffff;
-  height: 25px;
+  height: 50px;
+  padding: 15px;
   width: 100%;
   border-radius: 0.2em;
   border: none;
@@ -125,14 +124,12 @@ button{
 }
 
 .terms{
-  font-size: 7px;
   text-align: center;
   padding: 5px;
   color: hsl(246, 25%, 77%);
 }
 @media screen and (max-width: 375px) {
   .terms{
-    font-size: 8.9px;
   }
 }
 
@@ -146,7 +143,6 @@ a:hover{
 ::placeholder{
   padding: 10px;
   color: black;
-  font-size: 9px;
   opacity: 0.3;
   font-weight: 700;
 }
