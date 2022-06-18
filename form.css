@@ -17,7 +17,7 @@ body{
 
 .container{
   background: url(bg-intro-desktop.png);
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   margin: auto;
@@ -31,7 +31,7 @@ body{
     display: block;
     text-align: center;
     margin: auto;
-    width: 100%;
+    width: 100vw;
     min-height: 500px;
     padding-top: 50px;
   }
@@ -53,7 +53,7 @@ h1{
 }
 @media screen and (max-width: 375px) {
   h1{
-    font-size: 22px;
+    font-size: 25px;
   }
 }
 p{
@@ -97,7 +97,7 @@ form{
   form{
     margin: auto;
     width: 67%;
-    height: 240px;
+    height: 279px;
     padding-top: 15px;
   }
 }
@@ -118,9 +118,18 @@ button{
   border-radius: 0.2em;
   border: none;
   background: hsl(154, 59%, 51%);
-  font-size: 9px;
   cursor: pointer;
   box-shadow: 0px 1px 1px 1px hsl(120, 100%, 29%);
+  font-weight: 600;
+  font-size: 16;
+}
+@media screen and (max-width: 375px) {
+  button{
+    height: 29px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+  }
 }
 
 .terms{
