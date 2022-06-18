@@ -11,9 +11,6 @@ body{
   width: 100%;
   font-family: "Poppins", sans-serif;
 }
-@media screen and (max-width: 345px) {
-  
-}
 
 .container{
   background: url(bg-intro-desktop.png);
@@ -25,7 +22,7 @@ body{
   align-items: center;
 }
 
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 375px) {
   .container{
     background: url(bg-intro-mobile.png);
     display: block;
@@ -39,7 +36,7 @@ body{
 
 .box{
   width: 40%;
-}@media screen and (max-width: 345px) {
+}@media screen and (max-width: 375px) {
   .box{
     width: 100%;
     margin: auto;
@@ -77,7 +74,7 @@ p{
   text-align: center;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.19);
 }
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 375px) {
   .free7{
     margin: auto;
     padding: 20px;
@@ -93,7 +90,7 @@ form{
   border-radius: 0.2rem;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.19);
 }
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 375px) {
   form{
     margin: auto;
     width: 67%;
@@ -137,6 +134,7 @@ button{
   padding: 5px;
   color: hsl(246, 25%, 77%);
 }
+
 
 a{
   color: hsl(0, 100%, 74%);
