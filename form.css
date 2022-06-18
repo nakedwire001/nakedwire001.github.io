@@ -17,8 +17,8 @@ body{
 
 .container{
   background: url(bg-intro-desktop.png);
-  width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
   margin: auto;
   justify-content: center;
@@ -31,7 +31,7 @@ body{
     display: block;
     text-align: center;
     margin: auto;
-    width: 100%;
+    width: 100vw;
     min-height: 500px;
     padding-top: 50px;
   }
