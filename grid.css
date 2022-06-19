@@ -1,32 +1,33 @@
 .container{
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1.5fr 1fr 1.5fr;
-    grid-template-rows: 1.2fr 0.9fr 0.9fr;
-    grid-template-areas: 
-    "logo logo main"
-    "article content1 content1"
-    "article content2 content2"
-    ;
+    height: 100vw;
+	 width: 100vh;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-gap: 5px;
 }
 #logo{
     background-color: aqua;
-    grid-area: logo;
+grid-column: 1/7;
+grid-row: 1/6;
 }
 #main{
     background-color: blue;
-    grid-area: main;
+grid-column: 7/11;
+grid-row: 1/6;
 }
 #article{
     background-color: brown;
-    grid-area: article;
+grid-column: 1/6;
+grid-row: 6/12;
 }
 #content1{
     background-color: black;
-    grid-area: content1;
+grid-column: 6/11;
+grid-row: 6/8;
 }
 #content2{
-    background-color: chartreuse;
-    grid-area: content2;
+    background-color: pink;
+grid-column: 6/11;
+grid-row: 8/12;
 }
